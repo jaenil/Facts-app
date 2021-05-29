@@ -10,3 +10,6 @@ Possible contributions :
   
   You can contact me on discord at : JP1234#9518
   
+  
+  IMPORTANT 
+  Pls run 'npm install' before starting .

@@ -7,13 +7,22 @@
 .App {
   text-align: center;
 }
-.NewsSearcher h1 {
+.headers {
   font-size: 50px;
   color: #fff;
-  text-transform: uppercase;
   background: #333;
   padding: .3em;
   margin-bottom: 1em;
+}
+
+.headers h1 {
+  text-transform: uppercase;
+}
+
+.headers li {
+  list-style-type: none ;
+  text-decoration: none ;
+  color: #fff;
 }
 
 .form_ {

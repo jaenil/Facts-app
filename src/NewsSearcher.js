@@ -1,6 +1,9 @@
 import React,{useState , useEffect}  from 'react' ;
 import './App.css'
 import RenderDoc from './RenderDoc' ;
+import {
+  Link
+} from "react-router-dom";
 
 const NewsSearcher = () => {
 
@@ -47,7 +50,19 @@ const NewsSearcher = () => {
 
     return(
         <div className='NewsSearcher'>
+          <div className='headers'>
             <h1> Fact Searcher </h1>
+              <nav>
+                <ul>
+                  <li>
+                    <Link to='/'>Home</Link>
+                  </li>
+                  <li>
+                    <Link to='/about' >About us</Link>
+                  </li>
+                </ul>
+              </nav>
+            </div>
             <form className='form_'>
                 <input
                 type="text" 
